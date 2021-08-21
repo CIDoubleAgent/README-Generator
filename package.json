@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/CIDoubleAgent/README-Generator/issues"
   },
-  "homepage": "https://github.com/CIDoubleAgent/README-Generator#readme"
+  "homepage": "https://github.com/CIDoubleAgent/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  }
 }
