@@ -34,8 +34,9 @@ const questions = [
         message:"Add test instructions for your project"
     },
     {
-        type: "checkbox",
+        type: "list",
         name:"liscense",
+        message:"What liscense are you using?",
         choices:[
             "Apache 2.0",
             "GPL 2.0",
@@ -56,10 +57,15 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data);
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions);
+   /* writeToFile("./output/README.md", generateMarkdown(data));*/
+}
 
 // Function call to initialize app
 init();
