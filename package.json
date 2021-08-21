@@ -1,0 +1,23 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Generates a professional readme for selected projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CIDoubleAgent/README-Generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator"
+  ],
+  "author": "Nicholas Zabkar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CIDoubleAgent/README-Generator/issues"
+  },
+  "homepage": "https://github.com/CIDoubleAgent/README-Generator#readme"
+}
