@@ -39,12 +39,12 @@ const questions = () => {
         },
         {
             type: "list",
-            name:"liscense",
+            name:"license",
             message:"What liscense are you using?",
             choices:[
                 "Apache 2.0",
-                "GPL 2.0",
-                "GPL 3.0",
+                "GPL v2",
+                "GPL v3",
                 "MIT"
             ],
         },
