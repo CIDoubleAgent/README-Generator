@@ -62,12 +62,10 @@ const questions = () => {
 }
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    
-}
+const writeToFile = util.promisify(fs.writeFile);
 
 // TODO: Create a function to initialize app
-function init() {
+const init = () => {
     questions();
 }
 
