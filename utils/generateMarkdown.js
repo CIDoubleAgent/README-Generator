@@ -15,7 +15,15 @@ const renderLicenseBadge = (license) => {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 const renderLicenseLink = (license) => {
-
+    if (license === 'Apache 2.0') {
+        return 'https://opensource.org/licenses/Apache-2.0';
+    } else if (license === 'GPL v2') {
+        return 'https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html';
+    } else if (license === 'GPL v3') {
+        return 'https://www.gnu.org/licenses/gpl-3.0';
+    } else if (license === 'MIT') {
+        return 'https://opensource.org/licenses/MIT';
+    }
 }
 
 // TODO: Create a function that returns the license section of README
