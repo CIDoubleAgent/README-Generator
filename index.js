@@ -66,7 +66,9 @@ const writeToFile = util.promisify(fs.writeFile);
 
 // TODO: Create a function to initialize app
 const init = () => {
-    questions();
+    questions()
+    .then((data) => writeToFile('./output/README.md', generateMarkdown(data)))
+    .catch((err) => console.error(err));
 }
 
 // Function call to initialize app
