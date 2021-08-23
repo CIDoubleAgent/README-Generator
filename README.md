@@ -13,6 +13,7 @@
   Requires node.js
   ## Usage
   To use the README generator, navigate to the repo in node.js command prompt and enter "node index.js". After responding to the prompts a new README file will be created in the output folder.
+  ![](https://github.com/CIDoubleAgent/README-Generator/blob/main/images/Readme%20Generator%20Demo.gif?raw=true)
   ## How to contribute
   Contact me using My GitHub username in the "Questions" section of this README.
   ## Tests
