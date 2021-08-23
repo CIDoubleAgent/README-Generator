@@ -13,6 +13,7 @@
   Requires node.js
   ## Usage
   To use the README generator, navigate to the repo in node.js command prompt and enter "node index.js". After responding to the prompts a new README file will be created in the output folder.
+  <iframe src="https://drive.google.com/file/d/1_vdQlzfdHbqjyakiEHfrQBrpdJ9AIsmx/preview" width="640" height="480"></iframe>
   ## How to contribute
   Contact me using My GitHub username in the "Questions" section of this README.
   ## Tests
