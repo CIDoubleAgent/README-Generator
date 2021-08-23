@@ -126,8 +126,8 @@ function generateMarkdown(data) {
 
   ${renderLicenseSection(data.license)}
   ## Questions
-  * ${data.github}
-  * ${data.email}
+  * GitHub username: ${data.github}
+  * Contact email: ${data.email}
   `;
 }
 
