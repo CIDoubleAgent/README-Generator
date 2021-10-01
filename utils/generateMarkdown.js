@@ -120,7 +120,7 @@ function generateMarkdown(data) {
 
   ${renderLicenseSection(data.license)}
   ## Questions
-  * GitHub username: ${data.github}
+  * GitHub username: [${data.github}](https://github.com/${data.github})
   * Contact email: ${data.email}
   `;
 }
