@@ -4,6 +4,7 @@
   "description": "Generates a professional readme for selected projects",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test"
   },
   "repository": {
